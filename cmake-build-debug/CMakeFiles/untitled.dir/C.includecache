@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/zhuso/CLionProjects/easy_sqlite/main.c
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+stdint.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+
